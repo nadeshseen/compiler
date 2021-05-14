@@ -1,0 +1,86 @@
+E -> TA
+A -> +TA|#
+T -> FB
+B -> *FB|#
+F -> i|(E)
+
+S->ACB|CbB|Ba
+A->da|BC
+B->g|#
+C->h|#
+
+
+S->ABCDE
+A->a|#
+B->b|#
+C->c
+D->d|#
+E->e|#
+
+S-> Bb|Cd
+B-> aB|#
+C-> cC|#
+
+S -> aABb
+A -> c|#
+B -> d|#
+
+S -> aBDh
+B ->cC
+C->bC|#
+D->EF
+E->g|#
+F->f|#
+
+S->ABa|bCA
+A->cBCD|#
+B->CdA|ad
+C->eC|#
+D->bSf|a
+
+Ambigous grammar
+S->aSbS|bSaS|#
+
+S->aSA|#
+A->c|#
+
+Left Recursive:
+S->Ae
+A->Aa|Cb|b
+C->Se
+B->b
+
+S->Ab
+A->Aa|Ab|c|d
+
+S->AB|BA
+A->a|#
+B->b|#
+
+SLR1
+
+E->E+T|T
+T->T*F|F
+F->(E)|i
+
+S->A
+A->AB|#
+B->aB|b
+
+S->Aa|bAc|Bc|bBa
+A->d
+B->d
+
+S->Aa|bAc|dC|bda
+A->d
+
+S->SS|a|#
+
+
+S->AaAb|BbBa
+A->#
+B->#
+
+S->AA
+A->aA|b
+

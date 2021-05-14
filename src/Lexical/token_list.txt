@@ -1,0 +1,5 @@
+i : Identifier ;
++ : Operator ;
+i : Identifier ;
+* : Operator ;
+i : Identifier ;
